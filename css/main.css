@@ -1795,6 +1795,10 @@ input.num-product::-webkit-inner-spin-button {
   text-transform: uppercase;
 }
 
+.justify-text {
+  text-align: justify;
+}
+
 .stext-102 {
   font-family: Poppins-Regular;
   font-size: 14px;
