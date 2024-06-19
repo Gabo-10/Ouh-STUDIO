@@ -476,7 +476,7 @@
 .logo-mobile {
   display: block;
   position: relative;
-  height: 80%;
+  height: 100%;
   padding-right: 25px;
   -webkit-flex-grow: 1;
   -moz-flex-grow: 1;

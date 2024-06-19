@@ -476,7 +476,7 @@
 .logo-mobile {
   display: block;
   position: relative;
-  height: 80%;
+  height: 100%;
   padding-right: 25px;
   -webkit-flex-grow: 1;
   -moz-flex-grow: 1;
@@ -484,7 +484,7 @@
 }
 
 .logo-mobile img {
-  max-width: calc(100% - 20px);
+  max-width: calc(100% - 80px);
   max-height: 100%;
   position:absolute;
   top: 0; 
@@ -1323,7 +1323,7 @@ button.mfp-close {
 
 .swal-title {
   font-family: Poppins-Bold;
-  color: #333333;
+  color: #a4a4a4;
   font-size: 18px;
   line-height: 1.5;
   padding: 0 15px;
@@ -1778,7 +1778,7 @@ input.num-product::-webkit-inner-spin-button {
 .cl3 {color: #666;}
 .cl4 {color: #999;}
 .cl5 {color: #222;}
-.cl6 {color: #888;}
+.cl6 {color: #353535;}
 .cl7 {color: #b2b2b2;}
 .cl8 {color: #555;}
 .cl9 {color: #aaa;}
