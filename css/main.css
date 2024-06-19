@@ -417,6 +417,24 @@
   flex-grow: unset;
 }
 
+/*---------------------------------------------*/
+/* Ajustes para la versión móvil */
+@media (max-width: 768px) {
+  .wrap-header-mobile .wrap-icon-header {
+    flex-grow: unset;
+  }
+
+  .icon-header-item {
+    font-size: 20px; /* Disminuye el tamaño de los íconos en pantallas más pequeñas */
+  }
+}
+
+@media (max-width: 480px) {
+  .icon-header-item {
+    font-size: 16px; /* Disminuye aún más el tamaño de los íconos en pantallas aún más pequeñas */
+  }
+}
+
 /*==================================================================
 [ Barra de menu ]*/
 
@@ -484,7 +502,7 @@
 }
 
 .logo-mobile img {
-  max-width: calc(100% - 80px);
+  max-width:100;
   max-height: 100%;
   position:absolute;
   top: 0; 
@@ -493,6 +511,23 @@
   margin: auto;
 }
 
+.logo-mobile {
+  display: block;
+  position: relative;
+  height: 100%;
+  padding-right: 25px;
+  -webkit-flex-grow: 1;
+  -moz-flex-grow: 1;
+  flex-grow: 1;
+}
+
+
+
+@media (max-width: 480px) {
+  .logo-mobile img {
+    width: 8vw; /* Ajusta el ancho del logo en pantallas aún más pequeñas */
+  }
+}
 
 
 /*------------------------------------------------------------------
@@ -3018,3 +3053,4 @@ input.num-product::-webkit-inner-spin-button {
   height: 100%;
   border: 0;
 }
+
