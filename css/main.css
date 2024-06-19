@@ -417,6 +417,24 @@
   flex-grow: unset;
 }
 
+/*---------------------------------------------*/
+/* Ajustes para la versión móvil */
+@media (max-width: 768px) {
+  .wrap-header-mobile .wrap-icon-header {
+    flex-grow: unset;
+  }
+
+  .icon-header-item {
+    font-size: 20px; /* Disminuye el tamaño de los íconos en pantallas más pequeñas */
+  }
+}
+
+@media (max-width: 480px) {
+  .icon-header-item {
+    font-size: 16px; /* Disminuye aún más el tamaño de los íconos en pantallas aún más pequeñas */
+  }
+}
+
 /*==================================================================
 [ Barra de menu ]*/
 
